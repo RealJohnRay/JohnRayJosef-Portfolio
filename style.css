@@ -534,8 +534,9 @@ li {
         size: A4;
         margin: 15mm;
     }
+}
 
-    .resume-link {
+.profile-header .resume-link {
     display: inline-block;
     margin-top: 16px;
     padding: 10px 18px;
@@ -545,13 +546,12 @@ li {
     text-decoration: none;
 }
 
-.resume-link:hover {
+.profile-header .resume-link:hover {
     background-color: white;
     color: #35383d;
 }
 
-.resume-link:focus-visible {
+.profile-header .resume-link:focus-visible {
     outline: 3px solid white;
     outline-offset: 4px;
-}
 }
